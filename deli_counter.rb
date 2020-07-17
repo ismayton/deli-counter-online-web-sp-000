@@ -21,3 +21,5 @@ def now_serving(array)
     puts "The line is empty."
   else
     puts "Currently serving #{array[0]}."
+  end
+end
