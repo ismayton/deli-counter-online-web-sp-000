@@ -20,7 +20,7 @@ def now_serving(array)
   if array.length == 0
     puts "The line is empty."
   else
-    puts "Currently serving #{array[0]}."
-    array.
+    customer = array.shift()
+    puts "Currently serving #{customer}."
   end
 end
