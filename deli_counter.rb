@@ -3,5 +3,6 @@ def line(array)
     puts "The line is currently empty."
   else
     array
+    puts "The line is currently:"
   end
 end
