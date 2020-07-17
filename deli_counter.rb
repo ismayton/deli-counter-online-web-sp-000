@@ -5,7 +5,7 @@ def line(array)
     string = ''
     array.each_with_index do |person, index|
       line_position = index + 1
-      string << "#{line_position}. #{person}"
+      string << " #{line_position}. #{person}"
     end
     puts "The line is currently:" + string
   end
